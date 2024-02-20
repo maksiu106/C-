@@ -1,0 +1,34 @@
+1. Mamy klasę:
+
+class TKlasa {
+public:
+	TKlasa(const char* c); // zmień to na definicję z inicjalizacją
+private:
+	string str;
+};
+
+Proszę do niej dopisać:
+a. const char* operator[](const char* s) const, który będzie sprawdzał, czy w danym obiekcie TKlasa znajduje się zadany podciąg znaków s i jeśli tak, zwracał adres jego początku, a jeśli nie, zwracał nullptr.
+b. operator<=>
+
+W programie proszę zademonstrować przypadki użycia powyższych.
+
+2. Mamy klasę:
+
+class TComplex {
+public:
+	TComplex(double re, double im); // zamień na definicję z inicjalizacją
+private:
+	double re{0}, im{0};
+};
+
+Proszę dopisać do niej:
+a) operator funkcyjny, żeby zapis obiekt(2,3) tworzył nowy obiekt (zwracany z niego przez wartość)
+b) przeciążyć operatory + i –
+c) napisać metody conj() zwracające sprzężenie zespolonego i abs() zwracającą wartość
+d) przeciążyć operatory * i / (sprawdzić w źródłach jak to jest dla liczby zespolonej)
+e) napisać operator<< żeby wypisywał na ekranie na przykład: (2,3)
+
+4. Napisz klasę TSmartPtr, w której przeładujesz operatory -> oraz *, zaprezentuj w programie.
+
+5. Dla prostej klasy (choćby takiej jak klasa A ze składnikiem int i) napisz przeciążone operatory ++, -- (pre- i post-), jednoargumentowe + i - oraz dwuargumentowe + i -. Następnie wykonaj dyskusję (prezentację) ile maksymalnie znaków + (-) można postawić przed lub za obiektem typu A, żeby kod był nadal ważny i działający. Jest to zależne od implementacji operatorów (w szczególności tego, czy zwracany typ jest z const czy bez).

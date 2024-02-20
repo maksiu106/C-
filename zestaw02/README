@@ -1,0 +1,9 @@
+1. Napisz program, który wczyta z pliku ASCII tekst, a następnie go wyjustuje (czyli wyrówna do lewej i prawej krawędzi) przy zadanej jako stały parametr szerokości kolumny i wyświetli na ekranie. Ponieważ w przypadku konsoli nie mamy zmiennej szerokości fontów, to „wyrównywanie” trzeba wykonać poprzez sprytne, w miarę jednorodne, dodawanie spacji w danej linii. Oczywiście w sytuacji gdy szerokość kolumny jest za mała w stosunku do długości słów, dopuszczalne jest „przekroczenie” szerokości kolumny przez dane słowo. P
+
+2. Wygeneruj na początek 10000 losowych liczb w zakresie od 1 do 10000 z rozkładem jednorodnym, zapisując je w obiekcie typu std::vector<int>, a następnie napisz algorytm sortowania Quicksort, z pivotem w środku przedziału.
+
+3. Napisz funkcję: auto fun(const auto& arg), którą wywołasz z argumentem typu initializer_list<T>. W funkcji, za pomocą iteratora pozyskanego metodą begin(), przejść po całym kontenerze arg i policzyć sumę z argumentów. Funkcja fun niech zwróci wartość tej sumy. Spróbować z typami całkowitymi i zmiennoprzecinkowymi. 
+
+4. Napisz program, który wykorzystując <filesystem>, poprosi o podanie ścieżki do danego katalogu, a następnie wypisze nazwy wszystkich zwykłych plików oraz ich rozmiar. Należy zwrócić uwagę na rozpoznawanie rodzajów plików tak, żeby program wypisywał tylko zwykłe pliki oraz ich rozmiar, a jeśli ich nie ma, odpowiednią informację.
+
+5. Napisz program konwertujący zadaną liczbę arabską z przedziału 0 - 3999, podaną jako parametr wejściowy na liczbę w zapisie rzymskim. Sprawdzać poprawność podanego parametru.

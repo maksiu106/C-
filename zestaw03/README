@@ -1,0 +1,5 @@
+2. Napisz klasę o nazwie BigInt, która będzie przechowywać dowolnie wielką liczbę (całkowitą) w postaci typu std::string oraz pozwalać za pomocą metod składowych typu add(const BigInt&), subtract(const BigInt&) na obliczenia, zaś metoda print() const na wypisanie wartości na ekran. Konstruktor oraz operator= oczywiście powinien zostać napisany. Liczbę podajemy jako parametr na wejściu w postaci łańcucha znakowego.
+
+3. Napisz program do mnożenia macierzy o zadanych rozmiarach. Macierz A m×n oraz B n×p daje macierz C m×p. Macierze wczytać z pliku ASCII, zapisując w najprostszej możliwej postaci wierszy i kolumn oddzielonych spacjami (np. macierz A będzie mieć m wierszy i n kolumn). Po przemnożeniu wynik zapisać do jakiegoś pliku.
+
+5. Napisz program „kopiący” bitcoina. Proszę przyjrzeć się funkcji konwersji https://en.cppreference.com/w/cpp/string/basic_string/to_string). Będziemy potrzebować również SHA265 i tutaj proponuję użyć gotowy i przenośny nagłówek z odpowiednią klasą. Następnie proszę w programie dodać punkty pomiaru czasu początkowego i końcowego i zwiększając trudność obliczeń, wypisywać czas, jaki był potrzebny na „zgadnięcie” wyniku.
